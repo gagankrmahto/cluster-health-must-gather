@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+*secret*
+*token*
+
+# Temp / must-gather artifacts (never commit customer data)
+_refs/
+*.tgz
+*.tar
+*.tar.gz
+*.tar.xz
+must-gather*/
+sosreport*/
+*.log
+tmp/
+/tmp/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
